@@ -1,0 +1,195 @@
+<!-- ! STAVLJAO SAM HORIZONTALNE CRTE RADI LJEPSEG IZGLEDA U NAVBAR ALNE PROLAZE VALIDATION. -->
+<!-- !TAKODJER NIJE TRAZI MI H1 NA 126 AL JER JE SECTION AL NE KORISTIM H1 NA TOM MJESTU ZA SVAKI HTML RADI ESTETIKE -->
+<!-- !PROBAO SAM UREDIT KOD KOLIKO SAM MOGAO... BILO JE DOSTA KOPIRANJA REZANJA -->
+<!-- !TAKODJER BIH NAGLASIO DA SAM DOSTA KOMENTIRAO NA OVAJ NACIN ========== ILI ------ PA MI I TO KAO ZUTU GRESKU DAJE POCISTIO SAM VECINU -->
+<!-- !NADALJE POSAO SAM VAM PORUKU AL PREDPOSTAVLJAM DA NISTE IMALI VREMENA. UGLAVNOM KASNIM SA OVIM IZ DOSTA RAZLOGA AL ISPRICAT CU VAM UZIVO RADIJE NEGO PREKO KOMENTARA -->
+<!-- ?NADAM SE DA CEETE RAZUMIT... HVALA & UGODAN SPRING BREAK-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>Croats</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/cro.css" />
+    <!--===logo in tab -->
+    <link href="images/logo_new_black.png" rel="shortcut icon" />
+    <!--==Import-Font-Family-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Navigation-->
+    <nav class="navigation">
+      <!--logo-->
+      <img src="images/stuttgart2.png" class="logo" alt="stu" />
+
+      <!--menu-btn-->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+
+      <!--menu-->
+      <!--menu-->
+      <ul class="menu">
+        <li><a href="main.html">Home</a></li>
+        |
+        <li><a href="history.html">History</a></li>
+        |
+        <li><a href="museum.html">Museums</a></li>
+        |
+        <li><a href="castles.html">Castles</a></li>
+        |
+        <li><a href="park.html">Parks</a></li>
+        |
+        <li><a href="gastro.html">Gastro</a></li>
+        |
+        <li><a href="ind.html">Industry</a></li>
+        |
+        <li><a href="sport.html">Sport</a></li>
+        |
+        <li><a href="cro.html" class="active">Croats</a></li>
+        |
+        <li><a href="refrences.html">References</a></li>
+      </ul>
+    </nav>
+    <!--nav-end-->
+
+    <!--welcome-->
+    <section id="welcome">
+      <!--welcome pic -->
+      <img src="images/stuttgart.png" class="city" alt="bg" />
+
+      <!--welcome text-->
+      <div class="welcome-text">
+        <h1>Croats in Stuttgart</h1>
+        <strong>#stuttgart22</strong>
+      </div>
+    </section>
+    <!--welcome-end-->
+
+    <!--category-->
+    <section id="category">
+      <!--box-container-->
+      <div class="category-container">
+        <!--box-->
+        <a href="history.html" class="category-box">
+          <img src="images/history.png" alt="pic" />
+          <span>History</span>
+        </a>
+
+        <!--box-->
+        <a href="museum.html" class="category-box">
+          <img src="images/museum.png" alt="pic" />
+          <span>Museums</span>
+        </a>
+
+        <!--box-->
+        <a href="castles.html" class="category-box">
+          <img src="images/castle.png" alt="pic" />
+          <span>Castles</span>
+        </a>
+
+        <!--box-->
+        <a href="park.html" class="category-box">
+          <img src="images/nature.png" alt="pic" />
+          <span>Parks</span>
+        </a>
+
+        <!--box-->
+        <a href="gastro.html" class="category-box">
+          <img src="images/resto.png" alt="pic" />
+          <span>Gastro</span>
+        </a>
+        <!--box-->
+        <a href="ind.html" class="category-box">
+          <img src="images/industry.png" alt="pic" />
+          <span>Industry</span>
+        </a>
+
+        <!--box-->
+        <a href="sport.html" class="category-box">
+          <img src="images/sport.png" alt="pic" />
+          <span>Sport</span>
+        </a>
+
+        <!--box-->
+        <a href="cro.html" class="category-box">
+          <img src="images/cro.svg.png" alt="pic" />
+          <span>Croats</span>
+        </a>
+      </div>
+      <!--category-end-->
+      <!--Popular-->
+      <section id="popular-places">
+        <h1>CROATIAN COMMUNITY</h1>
+        <!--box-->
+        <div class="popular-box">
+          <img src="images/hkz.jpg" alt="CannstatterWasen" />
+          <p id="citeR"><cite>HKZ logo/ </cite> hkz-stuttgart.de</p>
+
+          <p>
+            Stuttgart has one of the largest Croatian communities in Germany.
+            There are currently 122,835 Croats living in Baden-Württemberg,of
+            which 15,000 live in Stuttgart. The two largest migrations of Croats
+            to Germany took place after the Second World War and now again in
+            the last 10 to 15 years. The Croatian community is very connected
+            with the Croatian Catholic Mission in Germany. The Croatian
+            community organizes regular meetings and events which are regularly
+            very visited. I myself am a Croatian who was born in Stuttgart and
+            therefore I see Germany as my second home.
+          </p>
+          <!--popular-btn-->
+          <a href="https://www.hkz-stuttgart.de" class="popular-btn">
+            <i class="fas fa-shopping-bag"></i> More
+          </a>
+        </div>
+      </section>
+      <!--popular-places-end-->
+    </section>
+    <!--popular-places-end-->
+    <!--Footer-->
+    <footer>
+      <div class="footer-container">
+        <!--logo-container-->
+        <div class="footer-logo">
+          <a href="main.html"> <img src="images/stuttgart2.png" alt="" /></a>
+          <!--social-->
+          <div class="footer-MyLogo">
+            <a href="https://people.rit.edu/em5561/ISTE240/index.html">
+              <img src="images/logo_new_black.png" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <!--links-->
+        <div class="footer-links">
+          <strong>Popular</strong>
+          <ul>
+            <li><a href="history.html">History</a></li>
+            <li><a href="ind.html">Castles</a></li>
+            <li><a href="gastro.html">Gastro</a></li>
+            <li><a href="cro.html">Croat's</a></li>
+          </ul>
+        </div>
+
+        <!--links-->
+        <div class="footer-links">
+          <ul>
+            <li><a>Copyright &copy 2022 </a></li>
+            <li>
+              <a href="https://people.rit.edu/em5561/ISTE240/index.html"
+                >Emanuel Ivan Mlikota</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
